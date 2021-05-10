@@ -1,0 +1,5 @@
+velocidad  =  int ( input ( "ingrese la velocidad (en metros por segundo) a la que se mueve el objeto:" ))
+aceleracion  =  int ( input ( "ingrese la aceleración (en metros por segundo al cuadrado) del objeto:" ))
+tiempo  =  int ( input ( "ingrese el tiempo (en segundos) con el que desea calcular la distancia recorrida por el objeto:" ))
+distancia  = (( velocidad  *  tiempo ) + ( 0.5  * ( aceleracion  * ( tiempo  **  2 ))))
+print ( "la distancia recorrida por el objeto es de:" , distancia , "metros" )
